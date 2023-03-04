@@ -263,7 +263,7 @@ fun AddNotificationScreenContent(
                     TextField(
                         modifier = Modifier
                             .fillMaxWidth()
-                            .height(screenHeight/3)
+                            .heightIn(min = screenHeight/3)
                             .border(
                                 width = 1.8.dp,
                                 color = Color.Gray,
